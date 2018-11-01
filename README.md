@@ -18,7 +18,7 @@ This application use google map api and zomato api to do a restaurants finding f
 
 ### Restaurant directions
 
-![detail-directions](https://github.com/arthurzoubin/restaurants-google-map//raw/master/screenshoots/detail-direction.png)
+![detail-directions](https://github.com/arthurzoubin/restaurants-google-map//raw/master/screenshoots/detail-directions.png)
 
 ### Env
 node >= 7.6.0
