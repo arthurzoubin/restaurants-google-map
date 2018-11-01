@@ -1,0 +1,66 @@
+@import '../../../styles/vars';
+@import '../../../styles/colors';
+
+.wrapper {
+  width: 420px;
+  height: 68px;
+  z-index: 2;
+  padding: 10px;
+
+  .formContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: $white;
+    box-shadow: 0 2px 4px $searchFormShadow;
+  }
+
+  .form {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .input {
+    input {
+      border: 0 !important;
+      border-radius: 0 !important;
+    }
+  }
+
+  .searchBtn {
+    background-color: $white !important;
+    border-radius: 0 !important;
+  }
+
+  .backResults {
+    background-color: $white;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 2px 4px $shadow;
+    box-sizing: border-box;
+    font-size: 13px;
+    left: 10px;
+    padding: 8px 20px;
+    position: fixed;
+    right: 0px;
+    text-align: left;
+    top: 56px;
+    width: 400px;
+    z-index: 5;
+    cursor: pointer;
+
+    .text {
+      font-size: 12px;
+      color: $f93;
+      font-weight: 500;
+    }
+  }
+}
+
+.wrapperBgShow {
+  position: relative;
+  background-color: $searchBoxBg;
+}
+
+.wrapperBgHide {
+  position: absolute;
+  background: transparent;
+}

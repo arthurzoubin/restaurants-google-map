@@ -1,0 +1,11 @@
+@import '../../../styles/vars';
+
+.wrapper {
+  display: flex;
+  padding: 10px;
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+}
