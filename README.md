@@ -2,6 +2,24 @@
 
 This application use google map api and zomato api to do a restaurants finding function.
 
+## Screen shoots
+
+### Nearby restaurants
+
+![nearby](https://github.com/arthurzoubin/restaurants-google-map/raw/master/screenshoots/nearby.png)
+
+### Search restaurants
+
+![search](https://github.com/arthurzoubin/restaurants-google-map//raw/master/screenshoots/search.png)
+
+### Restaurant
+
+![detail](https://github.com/arthurzoubin/restaurants-google-map//raw/master/screenshoots/detail.png)
+
+### Restaurant directions
+
+![detail-directions](https://github.com/arthurzoubin/restaurants-google-map//raw/master/screenshoots/detail-direction.png)
+
 ### Env
 node >= 7.6.0
 
