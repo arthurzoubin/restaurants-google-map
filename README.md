@@ -50,7 +50,7 @@ npm start
 
 With the default `.env` file, this will start your application in development mode on port 9001. It also provides a configuration for running the debugger with a useful console output.
 
-Open a browser window at `localhost:9001`.
+Open a browser window at `127.0.0.1:9001`.
 
 ### Technology stack
 
@@ -88,6 +88,7 @@ Reactjs Base uses the following libraries at its core:
 - [immutable](https://github.com/facebook/immutable-js) - Immutable persistent data collections for Javascript which increase efficiency and simplicity.
 
 ##### Styling
+- [Semantic-ui-react](https://react.semantic-ui.com/) - A web UI library for react
 - [SCSS](http://sass-lang.com/guide) - A popular CSS preprocessor.
 - [PostCSS](http://postcss.org/) - CSS transformations with JavaScript.
 - [css-modules](https://github.com/css-modules/css-modules) - A build step for modular, local scoped CSS management.
